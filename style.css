@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #000;
+    color: #fff;
+}
+
+#navbar ul li{
+    display: inline;
+    padding: 0 90px 50px 40px ;
+}
+
+#container{
+    display: flex;
+}
+
+#body{
+    margin: 50px;
+    width: 70%;
+}
+
+#body > h1{
+    font-weight: 750;
+}
+
+#body > img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+#body [class= "text"]{
+    font-size: 16px;
+}
+
+.photography{
+    margin: 50px;
+    width: 70%;
+    float: right;
+}
+
